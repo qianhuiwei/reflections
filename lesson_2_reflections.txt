@@ -1,0 +1,6 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+	A new ".git" directory is added to the current directory.
+	initializing a repository means there won't be any commit in it, and other files previously stored in the current directory won't be tracked before you make any commit. 
+
+2. 
