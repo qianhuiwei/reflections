@@ -1,0 +1,45 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	It is easy to compare files and saves time to find bugs.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	- It gaves me a big picture to see how a project changes over time and find out why would I make these changes.
+	- It's easy for me to compare different versions and look at details that I'm interested to know.
+	- It's easy to access old versions and I can safely restore one from history if I needed.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	pros: 
+	- you save your version consciously, so you might recall and tell differences btw versions more quickly. 
+	- each commit is much likely to have clear, reasonable or logical changes.
+	- the history is neater without too detailed changing logs.
+	cons:
+	- if your system or computer crashes accidentally, you lose all the works you have done.
+	- you'll take some more time to manually save for each version.
+	- you can't see every little details that have been changed.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	It depends on the purpose of the system. 
+	- Git is for saving coding project files. A project is consisting of several files working together to support a well functioning program, and one change in one file is easily to cause ripple effect on other files in the project. So it's reasonalbe and helpful that Git allows user to save multiple files in one commit.
+	- Systems that only allows you to save each file seperately is good for managing simple tasks that can be done independently and don't require cooperating with other files.
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+	- I can use git log to see new feature(s) added, bug(s) solved or anything changed for each commit by whom.
+	  If I really don't understand a change made by someone, I know who to ask for.
+	  I can also see how many features the project has right now clearly, so I can plan what to add or delete.
+	- git diff helps me to dive into two commits and see what exactly has been added or deleted.
+	  It is good for finding bugs and learning others' ways of managing programs.
+
+6. How might using version control make you more confident to make changes that could break something?
+
+	I know I can always go back to the previous version even though the current version is broke.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+	- common commands that manage directories and files
+	- commands that is related to version control and work on repositories and commits.
+
+
