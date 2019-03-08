@@ -3,4 +3,32 @@
 	A new ".git" directory is added to the current directory.
 	initializing a repository means there won't be any commit in it, and other files previously stored in the current directory won't be tracked before you make any commit. 
 
-2. 
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	A staging area is a temporary package for your commit. It offers you chances and flexibility to add or remove file(s) in it until you finally decide to make a commit. Once you've made a commit, you can only make another commit if you want to add or remove any files.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+	
+	comparing the most recent commit and the staging area to ensure that you only have one logical change in each commit before actually committing.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When you want to make some experimental change on your project without modifying the master branch. 
+
+5. How do the diagrams help you visualize the branch structure?
+	
+	It lets me know where did one new branch starts within the master branch, so that I know the overall working progress of the master branch and all other branches.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	
+	At first, it pops up a merging conflicts error message. After I fixed the bug, the 2 branches merged together. The commit log is interleaved with commits from different branches sorted by saved time. 
+	Making commits in chronological order helps us know which feature was introduced first. So if the merged branch lacks some features expected, I know how to track them and add them back.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Merging manually allows users to decide the version they really want when encountering merging conflicts, instead of picking one randomly or trying to merging them together.
+
+	Automatic merging may cause some compile errors or choose the version that's not most concise or ideal for users. Also, there could be more than one way of merging two conflicting versions. How to prioritize these options could be a challenge for Git.
+
+
+
